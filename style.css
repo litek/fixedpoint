@@ -34,6 +34,12 @@ body {
   display: table-cell;
   vertical-align: middle;
   padding-bottom: 60px;
+  text-align: center;
+}
+
+.main {
+  display: inline-block;
+  text-align: left;
 }
 
 .logo {

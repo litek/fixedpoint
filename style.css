@@ -3,6 +3,12 @@
   padding: 0;
   box-sizing: border-box;
   line-height: 1;
+  font-size: 100%;
+  list-style: none;
+}
+
+a {
+  color: #67bbe4;
 }
 
 html, body {
@@ -13,12 +19,15 @@ html, body {
 body {
   background: #111119 url("./images/bg.jpg") 50% 50%;
   background-size: cover;
+  color: #f4f4f4;
+  font: 16px "Open Sans", Helvetica, Arial, sans-serif;
 }
 
 .container {
   display: table;
-  width: 100%;
+  margin: 0 auto;
   height: 100%;
+  width: 700px;
 }
 
 .container > div {
@@ -28,7 +37,7 @@ body {
 }
 
 .logo {
-  margin: 0 auto;
+  margin-left: 2px;
   overflow: hidden;
   text-indent: -999px;
 }
@@ -43,6 +52,27 @@ body {
   background: url("./images/logo-21.png");
   width: 122px;
   height: 15px;
+}
+
+h2 {
+  font-size: 28px;
+  font-weight: 700;
+  padding: 40px 0 28px;
+}
+
+h3 {
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+ul {
+  padding-bottom: 28px;
+}
+
+li {
+  list-style: inside disc;
+  line-height: 1.5;
+  font-weight: 300;
 }
 
 footer {
